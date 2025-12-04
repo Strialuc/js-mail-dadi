@@ -13,22 +13,55 @@ Non è necessario provvedere alla validazione delle email*/
 
 const mailingList = [
 
-    "luca@mail.it";
-    "marco@mail.it";
-    "giulia@mail.it";
-    "alessia@mail.it";
-    "mirko@mail.it";
-    "franco@mail.it";
-    "mattia@mail.it";
-    "antonio@mail.it";
-    "carmine@mail.it";
-    "orlando@mail.it";
-    "luigi@mail.it";
-    "andrea@mail.it";
+    "luca@mail.it",
+    "marco@mail.it",
+    "giulia@mail.it",
+    "alessia@mail.it",
+    "mirko@mail.it",
+    "franco@mail.it",
+    "mattia@mail.it",
+    "antonio@mail.it",
+    "carmine@mail.it",
+    "orlando@mail.it",
+    "luigi@mail.it",
+    "andrea@mail.it"
 ];
 
 console.log(mailingList);
 
+// richiesta email all'utente
+
+const userMail = prompt("Inserisci la tua email")
+
+console.log(userMail);
+
+
+// check se l'email è presente nella lista
+
+let guest=false
+
+for (let i=0 ; i<= mailingList.length && guest === false; i++) {
+
+    if (userMail === mailingList[i]) {
+
+        guest= true;
+
+        console.log("L' utente è in lista");
+        
+
+        alert("Sei in lista, Benvenuto alla festa!")
+    } else {
+
+        console.log("Utente non in lista");
+        
+
+        alert("Spiacente non sei stato invitato")
+    }
+
+
+    }
+
+    
 
 
 
