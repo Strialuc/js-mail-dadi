@@ -10,11 +10,11 @@ Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
 const numPC = Math.floor(Math.random() * 6) + 1;
 
-console.log("il numero di Matrix e delle macchine è " + numPC);
+console.log("Il numero di Matrix e delle macchine è " + numPC);
 
 const numUser = Math.floor(Math.random() * 6) + 1;
 
-console.log(" Neo il prescelto ha questo numero: " + numUser);
+console.log("Neo il prescelto ha questo numero: " + numUser);
 
 
 // Condizione per vincitore
