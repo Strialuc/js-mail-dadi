@@ -9,4 +9,26 @@ Nota:
 Non è necessario provvedere alla validazione delle email*/
 
 
+// lista email 
+
+const mailingList = [
+
+    "luca@mail.it";
+    "marco@mail.it";
+    "giulia@mail.it";
+    "alessia@mail.it";
+    "mirko@mail.it";
+    "franco@mail.it";
+    "mattia@mail.it";
+    "antonio@mail.it";
+    "carmine@mail.it";
+    "orlando@mail.it";
+    "luigi@mail.it";
+    "andrea@mail.it";
+];
+
+console.log(mailingList);
+
+
+
 
